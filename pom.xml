@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>base62js</artifactId>
-    <version>707ebd9e05</version>
+    <version>707ebd10e05-SNAPSHOT</version>
     <name>base62js</name>
     <description>WebJar for base62.js</description>
     <url>http://webjars.org</url>
@@ -28,7 +28,7 @@
         <url>http://github.com/webjars/base62js</url>
         <connection>scm:git:https://github.com/webjars/base62js.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/base62js.git</developerConnection>
-        <tag>base62js-707ebd9e05</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>
