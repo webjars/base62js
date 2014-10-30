@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>base62js</artifactId>
-    <version>707ebd10e05-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <name>base62js</name>
     <description>WebJar for base62.js</description>
     <url>http://webjars.org</url>
@@ -54,10 +54,9 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstreamVersion>707ebd9e05</upstreamVersion>
-        <upstreamCommit>707ebd9e05a80abb0cb5150e3ab3d23da0ce559b</upstreamCommit>
+        <upstreamVersion>v1.0.0</upstreamVersion>
         <sourceUrl>https://raw.githubusercontent.com/andrew/base62.js/${upstreamVersion}</sourceUrl>
-        <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstreamVersion}</destDir>
+        <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
     </properties>
 
     <build>
